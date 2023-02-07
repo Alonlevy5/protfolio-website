@@ -75,11 +75,11 @@ section > h2 {
   margin-bottom: 3rem;
 }
 
-.text-light{
+.text-light {
   color: var(--color-light);
 }
 
-a{
+a {
   color: var(--color-primary);
   transition: var(--transition);
 }
@@ -88,7 +88,7 @@ a:hover {
   color: var(--color-white);
 }
 
-.btn{
+.btn {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -118,24 +118,24 @@ img {
 
 /* ==============Media Queries (Medium Devices) ==================== */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .container {
-    width: var(--container-width-md)
+    width: var(--container-width-md);
   }
 
-  section{
+  section {
     margin-top: 6rem;
   }
 }
 
 /* ==============Media Queries (Small Devices) ==================== */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .container {
-    width: var(--container-width-sm)
+    width: var(--container-width-sm);
   }
 
-  section > h2{
+  section > h2 {
     margin-top: 2rem;
   }
 }
