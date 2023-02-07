@@ -2,7 +2,7 @@ import React from 'react'
 import './protfolio.css'
 const Protfolio = () => {
   return (
-    <div>Protfolio</div>
+    <section id='protfolio'>Protfolio</section>
   )
 }
 
