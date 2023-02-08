@@ -22,7 +22,7 @@ function App() {
       <Contact />
       <Footer />
     </>
-    //1:06
+    //1:50
   );
 }
 
