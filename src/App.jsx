@@ -16,13 +16,13 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      <Services />
+      {/* <Services /> */}
       <Protfolio />
       <Testemonials />
       <Contact />
       <Footer />
     </>
-    //1:50
+    //2:04
   );
 }
 
