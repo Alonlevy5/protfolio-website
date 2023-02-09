@@ -5,8 +5,8 @@ import Experience from './components/experience/Experience';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
-import Protfolio from './components/protfolio/Protfolio';
-import Services from './components/services/Services';
+import Portfolio from './components/protfolio/Portfolio';
+// import Services from './components/services/Services';
 import Testemonials from './components/testemonials/Testemonials';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <About />
       <Experience />
       {/* <Services /> */}
-      <Protfolio />
+      <Portfolio />
       <Testemonials />
       <Contact />
       <Footer />
