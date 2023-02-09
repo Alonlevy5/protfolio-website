@@ -6,8 +6,6 @@ import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import Portfolio from './components/protfolio/Portfolio';
-// import Services from './components/services/Services';
-import Testemonials from './components/testemonials/Testemonials';
 
 function App() {
   return (
@@ -16,13 +14,11 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      {/* <Services /> */}
       <Portfolio />
-      <Testemonials />
       <Contact />
       <Footer />
     </>
-    //2:04
+    //2:40
   );
 }
 
