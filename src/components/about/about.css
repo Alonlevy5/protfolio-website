@@ -66,7 +66,7 @@
 
 /* ==============Media Queries (Medium Devices) ==================== */
 
-@media screen and(max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -82,14 +82,14 @@
 
 /* ==============Media Queries (Small Devices) ==================== */
 
-@media screen and(max-width: 600px) {
+@media screen and (max-width: 600px) {
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;
     }
 
     .about__cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
@@ -98,5 +98,6 @@
     }
     .about__content p {
         margin: 1.5rem 0;
+        text-align: center;
     }
 }
